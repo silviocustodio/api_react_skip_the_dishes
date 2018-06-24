@@ -27,7 +27,7 @@ views, downloads and size are displayed.
 ![](images/Screen-1-API.png)
 ![](images/Screen-2-Image-Details-API.png)
 
-# Main echnologies implemented
+# Main Technologies implemented
 > - Redux = a valuable tool for organizing the state of objects,
 > - Axios = Promise based HTTP client for the browser and node.js, to make a GET request
 > - react-router-dom =  to make routes
