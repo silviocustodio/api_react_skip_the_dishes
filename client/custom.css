@@ -1,0 +1,134 @@
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    background: -webkit-linear-gradient(to top, #9b0221, rgb(243, 245, 243));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #9b0221, rgb(251, 253, 250)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    height: 325px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.header .row {
+    height: inherit;
+}
+
+.apiName {
+    font-size: 1.5em;
+    color: #9b0221;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.header-text {
+    color: #676767;
+}
+
+.btn-pink {
+    background : #fefefe;
+    color: #ff6382;
+    border: 1px solid #ff6382;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.section-header {
+    color: #ff6382;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.img-card {
+    transition: all .2s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.img-card img {
+    border-radius: 3px;
+    transition: opacity .3s ease;
+}
+
+.see-more {
+    text-align: center;
+    opacity: 0;
+    transition : opacity .3s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+
+}
+
+.img-card:hover img { 
+    opacity: .4; 
+    background: black;
+}
+
+.img-card:hover .see-more {
+    opacity: 1;
+}
+
+
+.form-control {
+    background : #f5f1d4 !important;
+}
+
+.btn-danger {
+    background: #ff6382;
+    font-weight: bold;
+    min-width: 125px;
+}
+
+.input-button {
+    position: absolute;
+    background: #ff6382;
+    color: white;
+    right: 0;
+    z-index: 1250;
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+    height: 98%;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar {
+    border-bottom: 1px solid #dedede!important;
+}
+
+.navbar-brand {
+    color: #ff6382
+}
+
+.box {
+    background: #ececec;
+    border-radius: 3px;
+}
+
+.box-header {
+    padding: 10px 0px 10px 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.box-header hr {
+    line-height: 1em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.info {
+    font-size: .7em;
+    font-weight: bold
+}
+
+.values {
+    font-size: .7em;
+}
